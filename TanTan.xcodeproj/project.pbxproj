@@ -11,6 +11,7 @@
 		A7C9C83A2BB15F65009B9D70 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7C9C8392BB15F65009B9D70 /* ContentView.swift */; };
 		A7C9C83C2BB15F66009B9D70 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A7C9C83B2BB15F66009B9D70 /* Assets.xcassets */; };
 		A7C9C83F2BB15F66009B9D70 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A7C9C83E2BB15F66009B9D70 /* Preview Assets.xcassets */; };
+		A7C9C8462BB166B3009B9D70 /* AppState.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7C9C8452BB166B3009B9D70 /* AppState.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +20,7 @@
 		A7C9C8392BB15F65009B9D70 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		A7C9C83B2BB15F66009B9D70 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A7C9C83E2BB15F66009B9D70 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		A7C9C8452BB166B3009B9D70 /* AppState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppState.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +55,7 @@
 			children = (
 				A7C9C8372BB15F65009B9D70 /* TanTanApp.swift */,
 				A7C9C8392BB15F65009B9D70 /* ContentView.swift */,
+				A7C9C8452BB166B3009B9D70 /* AppState.swift */,
 				A7C9C83B2BB15F66009B9D70 /* Assets.xcassets */,
 				A7C9C83D2BB15F66009B9D70 /* Preview Content */,
 			);
@@ -137,6 +140,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A7C9C8462BB166B3009B9D70 /* AppState.swift in Sources */,
 				A7C9C83A2BB15F65009B9D70 /* ContentView.swift in Sources */,
 				A7C9C8382BB15F65009B9D70 /* TanTanApp.swift in Sources */,
 			);
